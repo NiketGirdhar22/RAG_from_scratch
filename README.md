@@ -24,7 +24,7 @@ I this i have used all open source tools easily available.
 ## Clone Repo
 
 ```
-https://github.com/NiketGirdhar22/RAG_from_scratch.git
+git clone https://github.com/NiketGirdhar22/RAG_from_scratch.git
 ```
 
 ```
