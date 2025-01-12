@@ -41,12 +41,12 @@ python -m venv venv
 
 - Activation
 
-* Linux/MacOS
+Linux/MacOS
 ```
 source venv/bin/activate
 ```
 
-* Windows
+Windows
 ```
 .\venv\Scripts\activate
 ```
