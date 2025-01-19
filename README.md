@@ -86,7 +86,9 @@ For this code, the data is being stored in a csv file, but for a larger dataset,
 | **Feature** | **CSV File** | **Vector Database** |
 | ----- | ----- | ----- |
 | **Query Speed** | Slow - Linear Search | Quicker - Nearest Neighbor Search |
+| ----- | ----- | ----- |
 | **Scalability** | Poor for larger datasets and files | Highly scalable as it can handle billions of vectors |
+
 | **Metadata Management** | Manual Management i.e. No indexing | Automatic metadata management, indexed |
 | **Storage Efficiency** | Can be inefficient for large datasets | Optimized for efficient storage and retrieval |
 | **Complex Queries** | Difficult to implement | Supports advanced queries - ANN, metadata filtering |
