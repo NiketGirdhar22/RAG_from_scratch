@@ -79,6 +79,21 @@ Jupyter Notebook
 jupyter notebook
 ```
 
+## Storage Mechanism for data and embeddings:
+
+For this code, the data is being stored in a csv file, but for a larger dataset, user can shift towards a better option, i.e. Vector Databases.
+
+| **Feature** | **CSV File** | **Vector Database** |
+| ----- | ----- | ----- |
+| **Query Speed** | Slow - Linear Search | Quicker - Nearest Neighbor Search |
+| **Scalability** | Poor for larger datasets and files | Highly scalable as it can handle billions of vectors |
+| **Metadata Management** | Manual Management i.e. No indexing | Automatic metadata management, indexed |
+| **Storage Efficiency** | Can be inefficient for large datasets | Optimized for efficient storage and retrieval |
+| **Complex Queries** | Difficult to implement | Supports advanced queries - ANN, metadata filtering |
+| **Real-Time Updates** | Difficult as it requires requires rewriting files | Supports real-time updates and streaming |
+| **Fault Tolerance** | No built-in fault tolerance | Built-in fault tolerance, replication |
+| **Parallelism/Distributed** | Not possible | Supports parallelism and distributed systems |
+
 ## Key terms
 
 | Term | Description |
